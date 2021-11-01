@@ -47,6 +47,10 @@ button {
   border-radius: 15px 50px 50px 50px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .inputcard__option-currency {
   display: flex;
   align-items: center;
