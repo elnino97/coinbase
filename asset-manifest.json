@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/coinbase/static/css/main.1e5aa6c4.chunk.css",
+    "main.js": "/coinbase/static/js/main.4b898ffe.chunk.js",
+    "main.js.map": "/coinbase/static/js/main.4b898ffe.chunk.js.map",
+    "runtime-main.js": "/coinbase/static/js/runtime-main.8747989c.js",
+    "runtime-main.js.map": "/coinbase/static/js/runtime-main.8747989c.js.map",
+    "static/css/2.fe708519.chunk.css": "/coinbase/static/css/2.fe708519.chunk.css",
+    "static/js/2.3fa70315.chunk.js": "/coinbase/static/js/2.3fa70315.chunk.js",
+    "static/js/2.3fa70315.chunk.js.map": "/coinbase/static/js/2.3fa70315.chunk.js.map",
+    "static/js/3.dfc165ec.chunk.js": "/coinbase/static/js/3.dfc165ec.chunk.js",
+    "static/js/3.dfc165ec.chunk.js.map": "/coinbase/static/js/3.dfc165ec.chunk.js.map",
+    "index.html": "/coinbase/index.html",
+    "static/css/2.fe708519.chunk.css.map": "/coinbase/static/css/2.fe708519.chunk.css.map",
+    "static/css/main.1e5aa6c4.chunk.css.map": "/coinbase/static/css/main.1e5aa6c4.chunk.css.map",
+    "static/js/2.3fa70315.chunk.js.LICENSE.txt": "/coinbase/static/js/2.3fa70315.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/coinbase/static/media/Roboto-Regular.9d43b864.woff2",
+    "static/media/btc.818cdb71.svg": "/coinbase/static/media/btc.818cdb71.svg",
+    "static/media/coingate.5f9ceb53.svg": "/coinbase/static/media/coingate.5f9ceb53.svg",
+    "static/media/eur.13d315ec.svg": "/coinbase/static/media/eur.13d315ec.svg",
+    "static/media/sepa.16936724.svg": "/coinbase/static/media/sepa.16936724.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8747989c.js",
+    "static/css/2.fe708519.chunk.css",
+    "static/js/2.3fa70315.chunk.js",
+    "static/css/main.1e5aa6c4.chunk.css",
+    "static/js/main.4b898ffe.chunk.js"
+  ]
+}
