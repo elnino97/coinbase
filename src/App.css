@@ -1,38 +1,91 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Fonts/Roboto-Regular.woff2") format("woff2"),
+    url("./Fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Fonts/Roboto-Bold.woff2") format("woff2"),
+    url("./Fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./Fonts/Roboto-Light.woff2") format("woff2"),
+    url("./Fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color-java {
+  color: #16dfb5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
-.App-link {
-  color: #61dafb;
+.Dropdown-root.dropdown__currency {
+  border-left: 1px solid #d9d9d9;
+  position: absolute;
+  width: 70px;
+  top: 13px;
+  right: 27px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Dropdown-root.dropdown__currency > .Dropdown-control {
+  overflow: unset;
+  padding: 0;
+  border: none;
+}
+
+.Dropdown-root.dropdown__currency
+  > .Dropdown-control
+  > .Dropdown-arrow-wrapper
+  > .Dropdown-arrow {
+  top: 10px;
+  right: -10px;
+}
+
+.Dropdown-root.dropdown__payment > .Dropdown-control {
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+}
+
+.Dropdown-root.dropdown__payment
+  > .Dropdown-control
+  > .Dropdown-arrow-wrapper
+  > .Dropdown-arrow {
+  top: 22px;
+  right: 14px;
 }
